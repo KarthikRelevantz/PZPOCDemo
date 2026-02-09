@@ -4,7 +4,7 @@ const {
   createUser,
   deleteUserById,
   updateUserById,
-} = require("../../models/userModel");
+} = require("../models/userModel");
 
 // GET all users
 const getUsers = (req, res) => {
