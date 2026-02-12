@@ -1,6 +1,6 @@
 function processPayment(amount, account) {
-
-    account.balance -= amount;
+    let amt = amount;
+    account.balance -= amt;
     return account.balance;
 }
 
