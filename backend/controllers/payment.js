@@ -1,8 +1,6 @@
 function processPayment(amount, account) {
-    if (amount <= 0) {
-        throw new Error("Invalid payment amount");
-    }
-    account.balance -= amount;
+    let amtt = amount;
+    account.balance -= amtt;
     return account.balance;
 }
 
